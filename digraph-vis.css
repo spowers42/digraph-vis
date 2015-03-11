@@ -1,0 +1,22 @@
+:host {
+  display: block;
+}
+
+/* To ensure your styling works under the Shadow DOM polyfill, see
+   www.polymer-project.org/docs/polymer/styling.html#directives */
+polyfill-next-selector { content: ':host > h2'; }
+
+circle.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+line.link {
+  stroke: #bbb;
+  stroke-width: 3px;
+}
+
+marker#arrow {
+    stroke: #999;
+    fill: #999;
+}
